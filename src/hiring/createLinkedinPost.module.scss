@@ -1,0 +1,139 @@
+// createLinkedinPostChatbot.module.scss
+.createLinkedInPostChatbot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f3f7f9;
+
+  .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+
+  .chatbotContainer {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  // Adjustments in createLinkedinPostChatbot.module.scss
+  .chatbotInput {
+    width: 504px;
+    height: 160px;
+    padding: 8px; // Adjust padding as needed, but ensure it's uniform all around
+    margin-top: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .openailogo {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #4a90e2; // A friendly blue that stands out but is pleasant
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #357abd; // Darken on hover for interactive feel
+    }
+
+    .chatgpt-logo {
+      margin-right: 8px; // Space between icon and text
+      width: 24px; // Keeping the logo proportional
+      height: 24px;
+    }
+  }
+
+  .nextButton {
+    padding: 10px 15px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color: darken(#27ae60, 10%);
+    }
+  }
+
+  .chatbotResponse {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    font-size: 24px;
+  }
+}
+.review {
+  .reviewItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .question {
+      font-weight: bold;
+    }
+
+    .answer {
+      cursor: pointer;
+      color: #0077b5;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .submitButton {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    &:hover {
+      background-color: darken(#27ae60, 10%);
+    }
+  }
+}

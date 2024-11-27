@@ -1,0 +1,42 @@
+.swotAnalysis {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #333;
+  }
+
+  p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 1.1em;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .chartContainer {
+    margin-top: 40px;
+  }
+
+  .exportButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

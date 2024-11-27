@@ -1,0 +1,66 @@
+// FormEmployeeContract.module.scss
+.formEmployeeContract {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dde1e4;
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50;
+
+    label {
+      margin: 10px 0 5px;
+      display: flex;
+      align-items: center;
+      color: #34495e;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccd0d5;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    input[type="number"]::placeholder {
+      color: #95a5a6;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    /* Add styling for radio buttons and other elements as before */
+
+    .submitButton {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      &:hover {
+        background-color: darken(#27ae60, 10%);
+      }
+    }
+  }
+}

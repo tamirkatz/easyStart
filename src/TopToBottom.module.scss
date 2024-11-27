@@ -1,0 +1,33 @@
+.topToBottomLine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
+  margin-bottom: 20px; // Space between button and line
+  position: relative;
+}
+
+.lineSegment {
+  width: 5px;
+  height: 50px; // Adjust based on your design needs
+  background-color: #333;
+  position: relative;
+  margin-bottom: 20px; // Space between line and next button
+}
+
+.lineSegment::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0; // Position at the bottom of the segment
+  border-width: 10px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent; // Creates a downward-pointing arrow
+  transform: translateX(-50%);
+}

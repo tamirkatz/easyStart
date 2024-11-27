@@ -1,0 +1,48 @@
+// MainPage.module.scss
+.mainContainer {
+  display: flex;
+  justify-content: space-around; // Better spacing around items
+  padding: 20px;
+  gap: 30px; // Adds space between the main components
+}
+
+.roadmap {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventProgressBars {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; // Adds more space between progress bars
+}
+
+.progressBarContainer {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.title,
+.details {
+  text-align: left; // Align text to start for better structure
+}
+
+.logo {
+  width: 200px; // Make sure the logo size is appropriate
+}
+
+// MainPage.module.scss
+
+.header {
+  background-color: #1e1e2b;
+  color: white; // Ensuring good contrast for readability
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

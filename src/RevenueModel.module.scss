@@ -1,0 +1,38 @@
+.container {
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  color: #113093;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.description,
+.note {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.revenueList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

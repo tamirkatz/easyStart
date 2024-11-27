@@ -1,0 +1,28 @@
+.horizontalLineContainer {
+  display: flex;
+  align-items: center; // Aligns items in a horizontal line at their center
+}
+
+.nodeContainer {
+  display: flex;
+  align-items: center; // Ensures the node and the line segment are aligned on the same line
+}
+
+.lineSegment {
+  width: 50px; // Adjust according to your design
+  height: 5px;
+  background-color: black;
+  position: relative; // Needed for positioning the pseudo-element
+  margin-left: 10px; // Space between the node and the line
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%; // Centers the arrow vertically
+    left: -20px; // Moves the arrow to the left of the line start
+    border-width: 10px; // Controls the size of the arrow
+    border-style: solid;
+    border-color: transparent transparent transparent black; // Changes to a left-pointing arrow
+    transform: translateY(-50%) rotate(180deg); // Rotates the arrow to point to the left
+  }
+}

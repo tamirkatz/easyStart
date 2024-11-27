@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61be9a56.css",
+    "main.js": "/static/js/main.5919e115.js",
+    "static/media/cross_mark.png": "/static/media/cross_mark.a012d5615fb30063f106.png",
+    "static/media/openailogo.png": "/static/media/openailogo.67924d2dae8e9d4cc849.png",
+    "static/media/check_mark.png": "/static/media/check_mark.31b51ab060bcb834ac9b.png",
+    "static/media/easystartlogo.png": "/static/media/easystartlogo.b64281f17c497fa5946c.png",
+    "static/media/LinkedIn_logo_initials.png": "/static/media/LinkedIn_logo_initials.68ac41e1459436bfd38f.png",
+    "index.html": "/index.html",
+    "main.61be9a56.css.map": "/static/css/main.61be9a56.css.map",
+    "main.5919e115.js.map": "/static/js/main.5919e115.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61be9a56.css",
+    "static/js/main.5919e115.js"
+  ]
+}

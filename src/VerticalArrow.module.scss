@@ -1,0 +1,17 @@
+.verticalArrow {
+    position: absolute; // Or 'fixed' depending on your requirement
+    background: black; // Example background, adjust as needed
+    width: 5px; // Width of the line
+    height: 50px; // Adjust the height based on your requirements
+  
+    &::after {
+      content: "";
+      position: absolute;
+      left: -8px; // Adjust this to center the arrowhead based on the line width
+      bottom: -9px; // Position at the bottom of the line
+      border-width: 10px; // Size of the arrowhead
+      border-style: solid;
+      border-color: black transparent transparent transparent; // Arrow pointing downwards
+    }
+  }
+  
